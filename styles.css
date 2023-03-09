@@ -11,7 +11,7 @@ header{
 background: #FFF159;
 position: absolute;
 width: 100vw;
-height: 10svh;
+height: 12svh;
 display:flex;
 flex-direction: column;
 justify-content: space-between;
@@ -43,7 +43,7 @@ justify-content: space-between;
     color: #333333;
 }
 .barraSubOpciones{
-    padding: 10px;
+    margin: 8px;
     display: flex;
     gap: 30px;
 }
