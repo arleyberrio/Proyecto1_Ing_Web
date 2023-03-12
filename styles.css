@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug{
+    border: 1px solid red;
+}
+.img-dimension{
+        width:100%;
+        height:auto;  
+}
+.contendor-img {
+    width:100%;
+    height:auto;
+    }
+main{
+    background: #EBEBEB;
+    display:grid;
+    
+}
+.pagos{
+    padding: 10px;
+    margin-left: 10vw;
+    width: 80vw;
+    height: 12vh;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuotas{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.cuotas2{
+    display: grid;
+}
+div > h5{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.ver-mas{
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #3483FA;
+}
+.texto_ofertas{
+    padding-top: 5vh;
+    padding-left: 10vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    color: #666666;
+    gap: 15PX;
+}
+.ver-todas{
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+   padding-top: 7px;
+    color: #3483FA;
+}
+.card-product{
+    cursor: pointer;
+    width: 19%;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.cards{
+    width: 80vw;
+    display: flex;
+    margin-left: 10vw;
+    justify-content: space-between;
+
+}
+.precio-card{
+    display: flex;
+    padding-left: 7%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.descuento-card{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #00A650;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+.envio-card{
+    padding-left: 7%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #00A650;
+}
+.suscripcion{
+    width: 80vw;
+    height: 40vh;
+    display: grid;
+    margin-left: 10vw;
+    margin-top: 7vh;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.degradado{
+    width: 80vw;
+    height: 10vh;
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-suscrip{
+    padding-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.precios-suscript{
+    display: flex;
+    gap: 5px;
+    padding-right: 20px;
+    color:#FFFFFF;
+}
+
+.desc-suscript{
+    text-decoration: line-through;
+}
+.suscript-no-desc{
+    font-size: 23px;
+}
+.suscripcion-interna{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    padding-left: 20px;
+    display: grid;
+}
+.suscripcion-interna2{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    gap: 15%;
+   
+}
+.suscripcion-interna3{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-justify: left;
+    text-align: left;
+}
+.btn-content{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.btn-suscribete{
+    cursor: pointer;
+    width: 115px;
+    height: 40px;
+    left: 1026.28px;
+    background: #3483FA;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    border-color:#3483FA;
+    margin-right: 20px;
+    
+}
