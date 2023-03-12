@@ -437,6 +437,7 @@ div > h5{
     margin-left: 10vw;
     justify-content: space-between;
     color:#4B4B4B;
+    margin-bottom: 2%;
 }
 .img-dimension2{
     width:100%;
@@ -545,4 +546,94 @@ div > h5{
     background-image: url(/media/bannerNikon.png);
     position: relative;
     background-repeat: no-repeat;
+}
+.colecciones{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.cards4{
+    width: 80vw;
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 2%;
+    color:#4B4B4B;
+    gap: 1%;
+}
+.card-product4{
+    display: grid;
+    cursor: pointer;
+    width: 380;
+    height: 383px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+
+}
+.text-card4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    display: grid;
+    padding-left: 5%;
+    text-transform: uppercase;
+    color: #4B4B4B;
+}
+.text-min-card4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.section-cards4{
+    display: grid;
+}
+.cards5{
+    width: 80vw;
+    display: grid;
+    margin-left: 10vw;
+    margin-top: 2%;
+    color:#4B4B4B;
+    gap: 3%;
+}
+.fila-categoria{
+    display:flex;
+    gap: 1%;
+}
+.card-categoria{
+    height: 150px;
+    width:150px;
+    left: 0px;
+    right: 0px;
+    bottom: 170px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    gap: 7%;
 }
