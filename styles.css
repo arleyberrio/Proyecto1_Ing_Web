@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .debug{
     border: 1px solid red;
 }
@@ -15,6 +16,10 @@ height: 12svh;
 display:flex;
 flex-direction: column;
 justify-content: space-between;
+}
+main{
+    display:flex;
+    flex-direction: column;
 }
 
 .input_Search{
