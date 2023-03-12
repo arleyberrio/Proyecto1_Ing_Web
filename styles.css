@@ -82,6 +82,7 @@ main{
 }.pagos{
     padding: 10px;
     margin-left: 10vw;
+    margin-top: 30px;
     width: 80vw;
     height: 12vh;
     background: #FFFFFF;
@@ -140,7 +141,7 @@ div > h5{
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
-   padding-top: 7px;
+   padding-top: 10px;
     color: #3483FA;
 }
 .card-product{
@@ -156,7 +157,6 @@ div > h5{
     display: flex;
     margin-left: 10vw;
     justify-content: space-between;
-
 }
 .precio-card{
     display: flex;
@@ -195,7 +195,7 @@ div > h5{
     margin-top: 7vh;
     background: #FFFFFF;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
+    border-radius: 5px;
 }
 .degradado{
     width: 80vw;
@@ -204,6 +204,8 @@ div > h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .text-suscrip{
     padding-left: 15px;
@@ -251,7 +253,7 @@ div > h5{
 }
 .btn-content{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-between;
 }
 .btn-suscribete{
@@ -267,6 +269,280 @@ div > h5{
     font-weight: 600;
     font-size: 15px;
     border-color:#3483FA;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
+}
+
+.beneficios{
+    cursor: pointer;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    margin-left: 10vw;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.beneficios2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    text-align: center;   
+}
+
+.contendor-img-beneficio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height:90%;  
+    background-image: url(/media/Widget_Multicontent.png);
+    background-repeat: no-repeat;
+    }
+    .contendor-img-beneficio2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height:90%;  
+        background-image: url(/media/HBOMax.png);
+        background-repeat: no-repeat;
+        }
+    .contendor-img-beneficio3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height:90%;  
+        background-image: url(/media/paramount.png);
+        background-repeat: no-repeat;
+        }
+.desc-beneficio{
+    display: flex;
+    width: 100%;
+    height:50%; 
+    background: linear-gradient(0deg, #081330 0%, rgba(8, 19, 48, 0) 100%);
+    align-items: center;
+    padding-left: 5%;
+    gap: 15px;
+}
+.desc-beneficio2{
+    display: flex;
+    width: 100%;
+    height:50%; 
+    background: linear-gradient(0deg, #3C034E 0%, rgba(60, 3, 78, 0) 100%);
+    align-items: center;
+    padding-left: 5%;
+    gap: 15px;
+}
+.desc-beneficio3{
+    display: flex;
+    width: 100%;
+    height:50%; 
+    background: linear-gradient(0deg, #0064FF 0%, rgba(0, 100, 255, 0) 100%);
+    align-items: center;
+    padding-left: 5%;
+    gap: 15px;
+}
+.text-descuentoB1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    display: grid;
+    align-items: center;
+    color: #FFFFFF;
+    padding-bottom: 10px;  
+}
+.text-descuentoB2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.text-descuentoB3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.card-product2{
+    cursor: pointer;
+    width: 49%;
+    height: 230px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    gap: 5%;
+}
+.precio-card2{
+    color:#4B4B4B;
+    text-align:left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 20px;
+    display: grid;
+    align-items: center;
+    text-transform: uppercase;
+}
+.text-card2-1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-bottom: 5%;
+}
+.btn-ver{
+    cursor: pointer;
+    width: 93px;
+    height: 36px;
+    background: #3483FA;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 15px;
+    border-color:#3483FA;  
+}
+.btn-card-descubre{
+    margin-top: 10%;
+    border-radius: 2px;
+}
+
+.cards2{
+    width: 80vw;
+    display: flex;
+    margin-left: 10vw;
+    justify-content: space-between;
+    color:#4B4B4B;
+}
+.img-dimension2{
+    width:100%;
+    height:100%; 
+}
+.contendor-img2 {
+    width:100%;
+    height:100%;
+    }
+
+.card-product3{
+    cursor: pointer;
+    width: 284px;
+    height: 340px;
+    left: 8px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px -1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-right: 10px;
+    display: grid;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+}
+.banner-card{
+    height:100%;
+    background-image: url(/media/lego.png);
+    position: relative;
+    background-repeat: no-repeat;
+}
+.posicionar-imagen-logo{
+   height:80px;
+   width: 80px;
+   position: relative;
+   left: calc(50% - 80px/2);
+    top: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   background: url(/media/logoLego.png);
+}
+.img-items{
+    width: 70px;
+    height: 70px;
+    left: calc(50% - 70px/2 + 76px);
+    top: 3px;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.images{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.text-card3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.text-card3-2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #999999;
+    padding: 25px;
+    }
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;  
+}
+.banner-card2{
+    height:100%;
+    background-image: url(/media/bannerXiaomi.png);
+    position: relative;
+    background-repeat: no-repeat;
+}
+.banner-card3{
+    height:100%;
+    background-image: url(/media/bannerOster.png);
+    position: relative;
+    background-repeat: no-repeat;
+}
+.banner-card4{
+    height:100%;
+    background-image: url(/media/bannerNikon.png);
+    position: relative;
+    background-repeat: no-repeat;
 }
