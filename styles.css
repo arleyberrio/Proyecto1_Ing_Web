@@ -30,6 +30,9 @@ main{
     background: #EBEBEB;
     display:grid;
 }
+body{
+    background: #EBEBEB;
+}
 
 .input_Search{
     height: 39px;
@@ -609,6 +612,7 @@ div > h5{
     margin-top: 2%;
     color:#4B4B4B;
     gap: 3%;
+    margin-bottom: 4vh;
 }
 .fila-categoria{
     display:flex;
@@ -626,7 +630,7 @@ div > h5{
     border-color: #EAE6E6;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 14px;
     line-height: 16px;
     display: flex;
@@ -637,3 +641,92 @@ div > h5{
     color: #333333;
     gap: 7%;
 }
+.prefooter{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    gap: 3%;
+    }
+.item-prefooter{
+    width:33%;
+    display:grid;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400%;
+    font-size: 15px;
+    align-items: center;
+    justify-items: center;
+    text-justify: center;
+    text-align: center;
+    color: #999999;
+    gap: 10%;;
+}
+.titulos-prefooter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4B4B4B;
+}
+.enlace-prefooter{
+    cursor:pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3483FA;
+}
+.footer{
+    margin-top: 2px;
+    display: grid;
+    padding-top: 1%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 8vh;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    gap: 10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    align-items: center;
+    color: #999999;
+    }
+.text-footer{
+    display: flex;
+    gap: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 530;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 1%;
+}
+.linea {
+    width: 100%;
+    height: 2px;
+    max-width: 100%;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    border: 1px solid #EBEBEB;
+  }
